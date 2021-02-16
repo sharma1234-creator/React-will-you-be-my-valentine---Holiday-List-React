@@ -40,7 +40,15 @@ class App extends Component {
   render() {
     return (
       <div id="main">
-        {/* Do not remove the main div */}
+        <ol>
+             <li>{this.cityList.name[0]}, {this.cityList.country[0]}</li>
+             <li>{this.cityList.name[1]}, {this.cityList.country[1]}</li>
+             <li>{this.cityList.name[2]}, {this.cityList.country[2]}</li>
+             <li>{this.cityList.name[3]}, {this.cityList.country[3]}</li>
+             <li>{this.cityList.name[4]}, {this.cityList.country[4]}</li>
+             <li>{this.cityList.name[5]}, {this.cityList.country[5]}</li>
+             
+      </ol>
       </div>
     )
   }
