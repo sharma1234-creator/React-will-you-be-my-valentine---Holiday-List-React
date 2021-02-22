@@ -41,22 +41,22 @@ class App extends Component {
     return (
       <div id="main">
         <ol>
-             <li key="location1">{this.cityList.name[0]}</li>
-             <li key="location2">{this.cityList.name[3]}</li>
-             <li key="location3">{this.cityList.name[5]}</li>
-             <li key="location4">{this.cityList.name[9]}</li>
-             <li key="location5">{this.cityList.name[10]}</li>
-             <li key="location6">{this.cityList.name[11]}</li>
-             <li key="location7">{this.cityList.name[12]}</li>
-             <li key="location8">{this.cityList.name[13]}</li>
-             <li key="location9">{this.cityList.name[14]}</li>
-             <li key="location10">{this.cityList.name[18]}</li>
-             <li key="location11">{this.cityList.name[19]}</li>
-             <li key="location12">{this.cityList.name[23]}</li>
-             <li key="location13">{this.cityList.name[24]}</li>
-             <li key="location14">{this.cityList.name[25]}</li>
-             <li key="location15">{this.cityList.name[26]}</li>
-              <li key="location16">{this.cityList.name[27]}</li>
+             <li key="location1">{this.cityList[0].name}</li>
+             <li key="location2">{this.cityList[3].name}</li>
+             <li key="location3">{this.cityList[5].name}</li>
+             <li key="location4">{this.cityList[9].name}</li>
+             <li key="location5">{this.cityList[10].name}</li>
+             <li key="location6">{this.cityList[11].name}</li>
+             <li key="location7">{this.cityList[12].name}</li>
+             <li key="location8">{this.cityList[13].name}</li>
+             <li key="location9">{this.cityList[14].name}</li>
+             <li key="location10">{this.cityList[18].name}</li>
+             <li key="location11">{this.cityList[19].name}</li>
+             <li key="location12">{this.cityList[23].name}</li>
+             <li key="location13">{this.cityList[24].name}</li>
+             <li key="location14">{this.cityList[25].name}</li>
+             <li key="location15">{this.cityList[26].name}</li>
+              <li key="location16">{this.cityList[27].name}</li>
              
       </ol>
       </div>
