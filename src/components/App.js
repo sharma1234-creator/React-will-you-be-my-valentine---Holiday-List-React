@@ -43,7 +43,7 @@ class App extends Component {
         <ol>
              <li key="location1">{this.cityList[0].name}</li>
              <li key="location2">{this.cityList[3].name}</li>
-            // <li key="location3">{this.cityList[5].name}</li>
+             <li key="location3">{this.cityList[5].name}</li>
             // <li key="location4">{this.cityList[9].name}</li>
             // <li key="location5">{this.cityList[10].name}</li>
            //  <li key="location6">{this.cityList[12].name}</li>
