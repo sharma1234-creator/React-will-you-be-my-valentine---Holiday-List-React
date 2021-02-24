@@ -46,7 +46,7 @@ class App extends Component {
              <li key="location3">{this.cityList[5].name}</li>
              <li key="location4">{this.cityList[9].name}</li>
              <li key="location5">{this.cityList[10].name}</li>
-             <li key="location6">{this.cityList[11].name}</li>
+             <li key="location6">{this.cityList[12].name}</li>
             // <li key="location7">{this.cityList[12].name}</li>
              //<li key="location8">{this.cityList[13].name}</li>
              //<li key="location9">{this.cityList[14].name}</li>
